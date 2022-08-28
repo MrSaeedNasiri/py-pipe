@@ -39,6 +39,7 @@ def remote_commit():
     return output
 
 
+# check remote repository for new changes every minute
 while True:
     print("job is runing")
     if local_commit() != remote_commit():
