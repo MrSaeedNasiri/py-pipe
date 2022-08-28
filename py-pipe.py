@@ -27,6 +27,7 @@ while(True):
     print('job is runing')
     if(local_commit() != remote_commit()):
         try:
+            # TODO: kill started Popen processes
             subprocess.run(shlex.split("killall node"), cwd=project_dir,capture_output=True)
             print('current app killed')
         except:
