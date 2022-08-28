@@ -6,8 +6,8 @@ project_repo = "CHANGE_ME"
 project_dir = "/CHANGE/ME"
 
 
-def clone():
-    subprocess.run(shlex.split("git clone https://github.com/..."), cwd="/home/ubuntu/")
+# def clone():
+#     subprocess.run(["git","clone",project_repo], cwd="/home/ubuntu/")
 
 
 def pull():
