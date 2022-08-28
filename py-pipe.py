@@ -1,7 +1,6 @@
 from time import sleep
 import subprocess
 import shlex
-#subprocess.run(shlex.split("python3 -V"))
 
 project_repo = "CHANGE_ME"
 project_dir  = "/CHANGE/ME"
@@ -21,7 +20,6 @@ def remote_commit():
     ps.wait()
     return output
 
-#print(remote_commit())
 
 while(True):
     print('job is runing')
