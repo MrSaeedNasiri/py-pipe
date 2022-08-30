@@ -54,11 +54,9 @@ while True:
         pull()
         subprocess.run(shlex.split("yarn"), cwd=project_dir, capture_output=True)
         print("installed")
-        subprocess.run(
-            shlex.split("yarn build:prod"), cwd=project_dir, capture_output=True
-        )
+        subprocess.run(shlex.split("yarn build"), cwd=project_dir, capture_output=True)
         print("builded")
-        subprocess.Popen(shlex.split("yarn start:prod"), cwd=project_dir)
+        subprocess.Popen(shlex.split("yarn start"), cwd=project_dir)
         print("started")
     print("nothing to do")
     sleep(60)
