@@ -5,7 +5,14 @@ Auto deploy application (CI/CD) without Github actions / Jenkins / Docker / Kube
 
 
 
+
+## Dependencies
+
+```bash
+  Python > 3
+```
+
+
 ## Authors
 
 - [MrSaeedNasiri](https://github.com/MrSaeedNasiri)
-
