@@ -1,7 +1,7 @@
 
 # py-pipe
 
-Auto deploy application (CI/CD) without Github actions.
+Auto deploy application (CI/CD) without Github actions / Jenkins / Docker / Kubernetes.
 
 
 
